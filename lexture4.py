@@ -1,4 +1,4 @@
-# dictionary in python 
+# dictionary and set in python 
 
 info={
     "name":"ram",
@@ -52,3 +52,18 @@ num=0
 set2={1,2,3}
 set3={2,4,5}
 print(set2.union(set3))
+
+
+add_students_marks={}
+
+chem=input("enter marks of chem :")
+math=input("Enter marks of maths:")
+english=input("enter marks of english :")
+
+add_students_marks["chem"]=chem
+add_students_marks["math"]=math
+add_students_marks["english"]=english
+print(add_students_marks)
+
+values={9,9.0}
+print(values)
