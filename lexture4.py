@@ -30,3 +30,25 @@ print(students.get("name"))
 city={"city":"pune"}
 students.update(city)
 print(students)
+
+###Set in python
+
+numbers ={1,3,4,2,3,4,"test","python"}
+print("all values in set",numbers)
+print(type(numbers))
+print(len(numbers))
+## initialize empty set
+set1=set()
+set1.add(1)
+set1.add("name")
+set1.add("java")
+print(set1)
+set1.remove(1)
+print(set1)
+set1.clear()
+print(set1)
+num=0
+
+set2={1,2,3}
+set3={2,4,5}
+print(set2.union(set3))
