@@ -69,3 +69,18 @@ for etpl in exampletuple:
         print(etpl," found at :")
         break
     print("...searching..")
+
+## range()
+print(range(5))
+for i in range(5):
+    print(" numbers is :",i)
+
+for i in range(1,100,5):
+    if(i%2==0):
+        print(i)
+    i+=1
+
+for x in range(4):
+    pass
+print("test")
+
